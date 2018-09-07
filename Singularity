@@ -72,7 +72,7 @@ From: ubuntu:16.04
 cd /opt
 mkdir ucscapps
 cd ucscapps
-rsync -a -P rsync://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/ ./
+rsync -a -P rsync://hgdownload.soe.ucsc.edu/genome/admin/exe/linux.x86_64/ ./
 
 #install javaGenomicsToolkit 
 cd /opt
