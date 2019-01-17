@@ -67,7 +67,11 @@ From: ubuntu:16.04
     conda install --yes -c bioconda samtools
     conda install --yes -c bioconda sra-tools
     conda install --yes -c bioconda blast
-
+    conda install --yes -c bioconda trimmomatic
+    conda install --yes -c bioconda fastqc
+    conda install --yes -c bioconda hisat2
+    conda install --yes -c bioconda subread
+    
 #install ucscapps from pre-compiled binaries they offer:
 cd /opt
 mkdir ucscapps
