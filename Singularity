@@ -40,9 +40,12 @@ From: ubuntu:16.04
     apt-get clean
    
     # download and install miniconda3
-    curl -sSL -O https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-    bash Miniconda3-latest-Linux-x86_64.sh -p /opt/miniconda3 -b
-    rm -fr Miniconda3-latest-Linux-x86_64.sh
+    #curl -sSL -O https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    #bash Miniconda3-latest-Linux-x86_64.sh -p /opt/miniconda3 -b
+    #rm -fr Miniconda3-latest-Linux-x86_64.sh
+    curl -sSL -O https://repo.continuum.io/miniconda/Miniconda3-4.5.11-Linux-x86_64.sh
+    bash Miniconda3-4.5.11-Linux-x86_64.sh -p /opt/miniconda3 -b
+    rm -fr Miniconda3-4.5.11-Linux-x86_64.sh
     export PATH=/opt/miniconda3/bin:$PATH
     conda update -n base conda
     conda config --add channels conda-forge
